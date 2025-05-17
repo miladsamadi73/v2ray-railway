@@ -3,10 +3,12 @@
     "port": 8080,
     "protocol": "vmess",
     "settings": {
-      "clients": [{
-        "id": "5b3dd830-3c8a-4c79-aef1-df1d71a8fda3",
-        "alterId": 0
-      }]
+      "clients": [
+        {
+          "id": "5b3dd830-3c8a-4c79-aef1-df1d71a8fda3",
+          "alterId": 0
+        }
+      ]
     },
     "streamSettings": {
       "network": "ws",
@@ -16,6 +18,7 @@
     }
   }],
   "outbounds": [{
-    "protocol": "freedom"
+    "protocol": "freedom",
+    "settings": {}
   }]
 }
